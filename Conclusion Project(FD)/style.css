@@ -1,0 +1,279 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    /* box-sizing: border-box; */
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+}
+ul{
+    list-style-type: none;
+    background-color: rgb(31, 27, 27);
+    color: white;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+}
+.logo img{
+    width: 90px;
+    height: 60px;
+    cursor: pointer;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+li a{
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    border-bottom: 3px solid transparent;
+}
+li a:hover{
+    color: orangered;
+    border-bottom: 3px solid ;
+}
+ul li{
+    margin: 0 15px;
+}
+.li2 a{
+    /* color: orangered; */
+}
+
+.li2{
+    margin-left: auto;
+    background: transparent;
+    color: orangered;
+    border: 2px solid orangered;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 10px;
+}
+.head{
+    color: orangered;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+    font-size: 59px;
+}
+.body{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.First{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: url(Man\ Carrying\ Dumbells.png); 
+    background-position: bottom;
+    background-size: cover;
+    padding: 20px;
+}
+.btn{
+    margin: 15px 0px;
+    background: transparent;
+    color: orangered;
+    border: 2px solid orangered;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 1rem 2.8rem;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+button:hover{
+    background: orangered;
+    color: white;
+    box-shadow: 0 0 18px orangered;
+}
+.hr{
+    border-bottom: 3px dotted orangered;
+    margin: 3px;
+}
+.Second{
+    background-color: rgb(31, 27, 27);
+    padding: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head2{
+    font-family: 'Courier New', Courier, monospace;
+    color: orangered; 
+    margin: 10px 0px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 350px 200px 300px 300px ;
+    gap: 20px;
+}
+.text1{
+    font-size: 40px;
+    margin: 15px 0;
+}
+.text2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.number{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: xx-large;
+}
+.color{
+    color: orangered;
+}
+.Third{
+    background-color: rgb(32, 29, 29);
+    padding: 20px;
+    color: white;
+}
+.image{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card p{
+    margin: 10px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Fourth{
+    background-color: rgb(31, 27, 27);
+    padding: 20px;
+    color: white;
+}
+.sub{
+    border: 3px solid rgb(32, 29, 29);
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+    padding: 70px;
+}
+.font{
+    font-size: 40px;
+    padding: 10px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+}
+.btn2{
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0px;
+    background-color: transparent;
+    color: orangered;
+    border: 2px solid orangered;
+    transition: all 0.5s ease;
+}
+.btn2:hover{
+    background: orangered;
+    color: white;
+    box-shadow: 0 0 18px orangered;
+}
+.btn3{
+    text-decoration: none;
+     border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0px;
+    background-color: transparent;
+    color: orangered;
+    border: 2px solid orangered;
+    transition: all 0.5s ease
+}
+.btn3 a:hover{
+    color: white;
+}
+.btn3 a{
+    color: orangered;
+}
+.hidden-plans{
+    display: none;
+    margin-top: 15px;
+}
+.mini-plan{
+    line-height: 50px;
+    background: rgb(32, 29, 29);
+    padding: 20px;
+    margin: 10px 0;
+    border: 8px;
+}
+.mini-plan button{
+    background: orangered;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.grid3{
+    line-height: 2;
+    gap: 200px;
+    display: flex;
+    padding: 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(32, 29, 29);
+    color: white;
+}
+.bottom{
+    width: 90px;
+    height: 70px;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+}
+.links a:hover{
+    color: orangered;
+}
+
+.signup {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.signup p{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo2{
+    text-align: center;
+}
+.logo2 img{
+    width: 200px;
+}
+label{
+    width: 150px;
+    font-size: 20px;
+}
+input{
+    width: 400px;
+    margin: 10px 0;
+    padding: 10px;
+}
+input[type=radio]{
+    width: 80px;
+}
+input, textarea{
+    margin-bottom: 15px;
+}
+textarea{
+    width: 70%;
+    padding: 5px;
+}
+input[type=submit]{
+    margin-left: 170px;
+    padding: 10px 20px;
+    color: white;
+    background-color: orangered;
+}
